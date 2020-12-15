@@ -22,6 +22,11 @@ public void draw()
   for(int i = 0; i < 100; i++){
     twinkle[i].show();
   }
+   for(int i = 0; i < ash.size(); i++){
+    ash.get(i).show();
+    ash.get(i).move();
+    ash.get(i).turn((int)(Math.random() * 5));
+  }
 }
 public void keyPressed()
 {
