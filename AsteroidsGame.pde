@@ -1,12 +1,16 @@
 //your variable declarations here
 Spaceship bob = new Spaceship(); 
 Star[] twinkle = new Star [100];
+ArrayList <Asteroids> Ash = new ArrayList <Asteroids>();
 public void setup() 
 {
   //your code here
   size(500,500);
   for (int i = 0; i < twinkle.length; i++){
     twinkle[i] = new Star();
+  }
+   for(int i = 0; i < 9; i++){
+    ash.add(new Asteroids());
   }
 }
 public void draw() 
